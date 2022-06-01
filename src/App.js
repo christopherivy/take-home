@@ -1,25 +1,23 @@
 import logo from './logo.svg';
+import Home from "./Home";
+import Signup from "./Signup";
+import Admin from "./Admin";
+import About from "./About";
+
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App () {
+	return (
+		<div className="App">
+			<h1>Yodlr Design Challenge</h1>
+			<Signup />
+			<Admin />
+			<About />
+
+
+		</div>
+	);
 }
 
 export default App;
